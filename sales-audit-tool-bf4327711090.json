@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sales-audit-tool",
+  "private_key_id": "bf43277110905703d3ff1dad99ce7683e8c153ab",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDHxO9fQy8covf0\n1ZqKQojmaPi8ZI8O9i4FhmqCc63DagFxI9ziBYqzS4rOl1MQVCUzEaXpaYYB4eNz\nuBNEtGRiM87w5MR3oIpYW8EECBUEapBg6ACGdhjCDD52BOEdZkuKhGhLq1vI6h7D\nOfhenESuyymp+WGkz/wRhzB3Eo+WwEI/jNWMGxykXX1EXu5Rb5fVGl460gPNRR45\nBRiMWsBlFOx9ju0CUBqRw9x1oI6VbSvqEpQRFDsO57N4qk22hgyjupItetViPQBQ\nc7diqfAl3gDRMV133uJkD2ru5zBwPib73Vbyegs4P1eujXxor0Y4M8+8G7u0jgj6\n/4wY0PAjAgMBAAECggEASTmkPoh7X+VSu2GCvLRHxyFqL3Ayyhqt4uOS7g9l/a/B\nKI4rPIQog7Eoh7KLRXx6iD4rUSQXdWAuBfBOy8vN0ftImx9X7rufimTTmt01iwFe\nu86+xorKZ3KigJMoSyUAgp0nN7lvsvUyYoBAzLk+Kc4Zjw703jtIm8owlyzsCib3\nFNEN5s+79F6ztgL/oH+vfmlFk/xnQzGN2BrB37li7rroburg5pY5hhN5ldDrugEg\nzffokJGYGwGUU0DhRmvzO+O3bNEIfmXG+0tw/zTN3Ww6S0tt7PRUPH4PXSl5WITP\nR/EYUARF1jCTJM8bny0m1CldRFBtCaV2xspg48bGEQKBgQD+Om/6msDsnkDiONaQ\nS5MqShX960HmPJ21VKzz66Wtnhbp+0YTdZ7ToJXkr6vO14Mt+FrMJhxZaxhUv7aL\nRrCbvLpiCQPKKPvGxD7UM1tDw8SeTwbswo+ltLGzI7nMjeUQ11T0Ktz6i6BxtZxq\ndGNTJYN1dX6LDoVThSgBkQEo0QKBgQDJKVaxKM2IWcJ4elPyE3zTsmgbWUQcA3MZ\n3Z5t7g5XuC0CY2M2BfQWhTIK1b/KSZT8Vt/Ga7swlV5HIAK+FJQHWCdioifXEhP0\n3rYeKvz3xtoKCVfk20mF5fZgWRKawsPpQQ0k3lv7JfFMKnXoBcaqmVQer+e+511g\nf0xQqGSGswKBgQCobNqm8kOB/04JEZLEwezbhX2QXX2pJNtuuIxkhOecYDHaDchd\nN/1jQu5LNT7jp8+WcwTkXxNFAjh6XRB4sPpsEtp//GzwT7qN8pGVT/jUqivmnYB+\n9l7obw+TGMYNCKyLPb1gjc0ch8hhzOm1dSogeaff91lAkvwtWvgoIYLdIQKBgQDC\nr1pynN3GP7DBrwp9d7TQoZK2HT+YqRIFj4IcPE/vP5V4AT5sc3iXLxOOfu5eVbZ2\nPZHXVD5XN8iFp4pf8kSNkxiTEgLi2GEuFTlGmy42k2JEYmSJXl2a1EQNXUdvNl4q\n6kVRUE7PExqkL1frVWO/iiNqi64LCZpKoQj36vFXlwKBgQCjNcgJgoR4u4aBuo8j\nB1ij3hIXUEuI8buklzVvaM0et4MT3x/ZJAZvhqwioDgin/lUpO+NXVHoVpBrxVmn\n7D57aOOuhIDw8zpXThPsoREke7wd8F6h170vZN2L4YrUKLHt6LwBwyHbq6DSjcFB\nl2qN8kexWU+1Bq2DCK3ZHcgSog==\n-----END PRIVATE KEY-----\n",
+  "client_email": "sales-audit-tool@sales-audit-tool.iam.gserviceaccount.com",
+  "client_id": "105856052500081467114",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sales-audit-tool%40sales-audit-tool.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
