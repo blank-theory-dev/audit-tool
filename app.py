@@ -28,6 +28,13 @@ except ImportError:
     st.error("❌ Playwright library not found! Please run: pip install playwright && playwright install")
     st.warning("⚠️ Automatic screenshotting will be disabled.")
     PLAYWRIGHT_AVAILABLE = False
+    # Install Playwright browsers and dependencies if Playwright is available
+    import os
+    st.info("Attempting to install Playwright browsers and dependencies...")
+    os.system('playwright install')
+    os.system('playwright install-deps')
+    st.info("Playwright installation commands executed.")
+
 
 # --- Image Handling ---
 try:
