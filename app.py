@@ -1204,19 +1204,14 @@ if st.session_state.analysis_ran:
                             report_domain = get_domain_from_url(product_page_url) or "audit"
                             report_filename = f"{report_domain}_ad_audit_{datetime.datetime.now().strftime('%Y%m%d_%H%M')}.html"
 
-                            # --- NEW: Button to open report in browser ---
-                            if st.button("📂 Open Full Audit Report (HTML) in Browser"):
-                                try:
-                                    # Save the HTML content to a file
-                                    with open(report_filename, "w", encoding="utf-8") as f:
-                                        f.write(html_report)
-                                    # Print a marker to the console with the command to open the file
-                                    # Open the HTML file in the default web browser
-                                    webbrowser.open(report_filename)
-                                    st.success(f"Report saved as `{report_filename}` and opened in your browser.")
-                                except Exception as e:
-                                    st.error(f"Error saving or opening report: {e}")
-                            # --- END NEW ---
+                            # --- Download Button for HTML Export ---
+                            st.download_button(
+                                label="⬇️ Download Full Audit Report (HTML)",
+                                data=html_report,
+                                file_name=report_filename,
+                                mime="text/html"
+                            )
+                            # --- End Download Button ---
 
 
                       # **** Ad display loop using VERTICAL layout within st.container ****
