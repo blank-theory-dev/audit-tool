@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page & Ad Audit Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; color: #333; }
+        .container { max-width: 1000px; margin: auto; background-color: #fff; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 8px; } /* Increased max-width */
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { text-align: center; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-top: 30px; }
+        p { margin: 10px 0; }
+        strong { color: #16a085; }
+        code { background-color: #ecf0f1; padding: 3px 6px; border-radius: 4px; font-family: Consolas, monospace; color: #34495e; }
+        blockquote { border-left: 4px solid #bdc3c7; padding-left: 15px; margin-left: 0; color: #555; font-style: italic; background-color: #f9f9f9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; table-layout: fixed; }
+        th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; word-wrap: break-word; } /* Added word-wrap */
+        th { background-color: #f2f2f2; color: #333; font-weight: bold; }
+
+        /* --- Adjusted Column Widths --- */
+        th.preview-col { width: 130px; }
+        th.text-col { width: 23%; }
+        th.cta-col { width: 8%; }
+        th.link-col { width: 7%; }
+        th.status-col { width: 7%; }
+        th.date-col { width: 10%; }
+        th.days-col { width: 9%; }
+
+        td img { max-width: 120px; height: auto; display: block; border: 1px solid #eee; margin: 5px auto; } /* Adjusted max-width */
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .missing { color: #95a5a6; font-style: italic; }
+        .summary-section { background-color: #fdfefe; border: 1px solid #eaefda; padding: 15px; border-radius: 5px; margin-top: 20px;}
+        .summary-section h2, .summary-section h3 { border: none; margin-top: 0;}
+        .page-info { margin-bottom: 20px; padding-bottom: 15px; border-bottom: 1px dashed #ccc; }
+        .footer { text-align: center; margin-top: 30px; font-size: 0.9em; color: #7f8c8d; }
+        ul { padding-left: 20px; margin-top: 0; } /* Adjusted list padding/margin */
+        li { margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Product Page & Ad Audit Report</h1>
+<p class='footer'>Report generated on: 2025-05-06 12:57:58</p><div class="page-info">
+<h2>Product Page Information</h2>
+<p><strong>URL:</strong> <a href='https://www.mjselectricalsupplies.com.au/1.5mm-twin-active-100mtr-roll' target='_blank'>https://www.mjselectricalsupplies.com.au/1.5mm-twin-active-100mtr-roll</a></p>
+<p><strong>Detected CMS:</strong> Zendesk</p>
+</div>
+<div class="summary-section">
+<h2>Gemini Vision UX Analysis Summary</h2>
+<p></strong>Overall Summary:</strong></p>
+<p>The mjselectricalsupplies.com.au product page presents a clean and professional aesthetic, leveraging strong product imagery and clear pricing information.  However, the lack of a sticky "Add to Cart" button significantly impacts usability on both desktop and mobile.  This, combined with inconsistent placement of key elements across different scroll positions, creates a frustrating user experience. The primary opportunity for improvement lies in optimizing the layout for both viewports to ensure crucial conversion elements remain consistently visible, regardless of scroll position.</p>
+<p>--- Product Page Findings: ---</p>
+<p></strong>Issue/Opportunity:</strong>  Absence of a Sticky "Add to Cart" Button.</p>
+<p></strong>Impact:</strong> Users exploring product details (specifications, descriptions, reviews) must scroll back to the top to add the item to their cart, adding friction to the purchase process and potentially lowering conversion rates.  This is consistent across both desktop and mobile experiences.</p>
+<p></strong>Recommendation:</strong> Implement a sticky "Add to Cart" button, ideally positioned at the bottom of the viewport for both desktop and mobile.  This will maintain a clear call to action throughout the user's journey on the page.</p>
+<p></strong>Issue/Opportunity:</strong> Inconsistent Element Placement Across Scroll Positions.</p>
+<p></strong>Impact:</strong>  The layout shifts considerably as the user scrolls, leading to disorientation and confusion. This is particularly noticeable on desktop with the floating category menu and on mobile with the repetitive product image and "Add to Cart" placement.</p>
+<p></strong>Recommendation:</strong>  Maintain consistent positioning of core elements (product image, price, Add to Cart button) throughout scrolling on both desktop and mobile.  Consider anchoring key information to the top or bottom of the viewport and/or using a consistent side bar.</p>
+<p></strong>Issue/Opportunity:</strong> Mobile Layout Inefficiencies.</p>
+<p></strong>Impact:</strong> The mobile design struggles to present information efficiently.  Key sections like product specifications are collapsed, requiring users to expand them for details.  The bottom section with trust signals is also frequently hidden by the sticky product summary, which partially obscures it.</p>
+<p></strong>Recommendation:</strong> Optimize the mobile layout to display more information above the fold and use progressive disclosure strategies more effectively, only hiding non-critical information when absolutely necessary.  Ensure the trust signals remain consistently visible without overlap.</p>
+<p></strong>Issue/Opportunity:</strong>  Suboptimal Use of "Recently Viewed" Functionality (Mobile Only).</p>
+<p></strong>Impact:</strong> While the real-time purchase notification ("Someone in Heathcote...") aims to build trust, it appears repetitive and overlays crucial information in the mobile view, disrupting the user flow and visibility of the "Add to Cart" button and other sections.</p>
+<p></strong>Recommendation:</strong> Revise the notification's placement and/or frequency. Consider a more subtle approach or reposition it to a less disruptive area within the page.  A more compact or less intrusive display of this information is needed.</p>
+<p></strong>Issue/Opportunity:</strong>  Uneven distribution of Trust Signals.</p>
+<p></strong>Impact:</strong>  Trust signals ("Australian Company," "Easy Returns," etc.) are scattered across the page, particularly on mobile, making them less effective in building user confidence.</p>
+<p></strong>Recommendation:</strong> Consolidate trust signals in a prominent, consistently visible location (e.g., a dedicated section at the top or bottom of the page) on both desktop and mobile.</p>
+<p></strong>Issue/Opportunity:</strong> Lack of clear visual hierarchy in mobile view.</p>
+<p></strong>Impact:</strong>  The information isn't prioritized effectively. Key details are difficult to discern quickly from the supporting information.</p>
+<p></strong>Recommendation:</strong> Utilize better visual hierarchy through typography, spacing and color contrast to make important information (price, add to cart, key product details) easily noticeable on mobile.</p>
+<p>--- Key Recommendations Summary: ---</p>
+<p>1. Implement a sticky "Add to Cart" button on both desktop and mobile.</p>
+<p>2. Optimize the mobile layout for better information hierarchy and eliminate overlapping elements.</p>
+<p>3. Improve the placement and presentation of trust signals for increased user confidence.</p>
+<p>4. Redesign the mobile layout to ensure consistent visibility of critical information regardless of the scroll position.</p>
+<p>5. Revise the placement and presentation of the "recently viewed" information on mobile to minimize disruption.</p></div>
+<h2>Meta Ad Library Audit (Max 5 Ads, Sorted by Funnel Stage)</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="preview-col">Preview</th>
+                    <th class="text-col">Headline</th>
+                    <th class="text-col">Body Text</th>
+                    <th class="cta-col">CTA</th>
+                    <th class="link-col">LP Link</th>
+                    <th class="status-col">Status</th>
+                    <th class="date-col">Launched</th>
+                    <th class="days-col">Running</th>
+                    <th class="link-col">Ad Link</th>
+                </tr>
+            </thead>
+            <tbody>
+<tr>
+<td><img src="https://scontent.fros2-2.fna.fbcdn.net/v/t39.35426-6/494203086_661095540023934_7993996323664015470_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=m0tpxnRo5hgQ7kNvwHHyeFb&_nc_oc=AdkdAj5OXfN5YSgrGt39H5omDOjCgmcQARibbUrs57T-upQkP3JtfpsuspJWDf_UEzo&_nc_zt=14&_nc_ht=scontent.fros2-2.fna&_nc_gid=VQ8VUohNC79-4g26XrqkHA&oh=00_AfJh8Mzkg1Kl8oOvIRrPQRqawunyuOwp8ivsZxJh3cGkig&oe=681F37FC" alt="Ad Preview"></td>
+<td>Boost Airflow Today</td>
+<td>🌬️ Cool Bigger Spaces with Confidence
+Upgrade your ceiling fan performance with the new Clipsal Airflow X & Y Series!
+
+✅ Optimised for high ceilings
+✅ Seamless compatibility with Clipsal Airflow DC fans
+✅ Stylish white finish to match modern interiors
+✅ Quick, secure installation
+
+Perfect for open-plan living, commercial fit-outs, or anywhere airflow matters.
+💡 Better performance. Sleek design. Easy upgrade.
+
+🛒 Order now and feel the difference.
+📦 Fast shipping. Quality you can trust.</td>
+<td><code>Shop Now</code></td>
+<td><a href="https://www.mjselectricalsupplies.com.au/air-movement/ceiling-fans/clipsal-ceiling-fans/?pgnum=2" target="_blank" title="https://www.mjselectricalsupplies.com.au/air-movement/ceiling-fans/clipsal-ceiling-fans/?pgnum=2">Link</a></td>
+<td><code>Active</code></td>
+<td>2025-05-01</td>
+<td>5 days</td>
+<td><a href="https://www.facebook.com/ads/library/?id=1217989049932660" target="_blank">View</a></td>
+</tr>
+<tr>
+<td><img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.35426-6/493680364_673795208840158_3585058814069597377_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=TykFLNLZzzUQ7kNvwHBAmRk&_nc_oc=Adkn9XqF6B2HIBXd_X69NkIux-nWj_RBAae_Pe42B1qOThg_ETLZPxEzsI2Ihya3E64&_nc_zt=14&_nc_ht=scontent.fros2-1.fna&_nc_gid=VQ8VUohNC79-4g26XrqkHA&oh=00_AfLYkcOEpFIXSmFse_zCCRJLd_HsAaiPKrqEQGIA3ttkHw&oe=681F58FD" alt="Ad Preview"></td>
+<td>⚡ Bundle. Save. Score This May!</td>
+<td>Big savings. Freebies. No brainer.
+
+From 1st – 31st May, shop any eligible Clipsal bundle and get:
+
+🪛 A FREE Clipsal Iconic Screwdriver
+🚚 PLUS FREE Shipping Australia-wide
+
+Whether you're restocking the van or planning your next big install, there's never been a better time to stock up on Clipsal favourites.
+
+🎯 Quality gear. Fast delivery. Bonus tools just for you.
+
+🔧 Limit 1 screwdriver per order. While stocks last.
+
+👉 Don’t miss out — order now!</td>
+<td><code>Shop Now</code></td>
+<td><a href="https://promotions.mjselectricalsupplies.com.au/clipsal-may-bundle-promotion" target="_blank" title="https://promotions.mjselectricalsupplies.com.au/clipsal-may-bundle-promotion">Link</a></td>
+<td><code>Active</code></td>
+<td>2025-05-01</td>
+<td>5 days</td>
+<td><a href="https://www.facebook.com/ads/library/?id=2079829619191645" target="_blank">View</a></td>
+</tr>
+<tr>
+<td><img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.35426-6/495367046_2080401279039154_8012144251747306882_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=PX28q6xVJ6YQ7kNvwHxR94a&_nc_oc=AdkHroTm1WSf2Pw78k-SKw-0hiWNR-cyf2nHo-IKB5wnBq8jxyFaOoiPuvOha9hoB6A&_nc_zt=14&_nc_ht=scontent.fros2-1.fna&_nc_gid=VQ8VUohNC79-4g26XrqkHA&oh=00_AfLAlb9RSbFhk8XN86srSil_9uigxcOTDY8J8wJCrt6xTw&oe=681F3F74" alt="Ad Preview"></td>
+<td>⚡ Bundle. Save. Score This May!</td>
+<td>Big savings. Freebies. No brainer.
+
+From 1st – 31st May, shop any eligible Clipsal bundle and get:
+
+🪛 A FREE Clipsal Iconic Screwdriver
+🚚 PLUS FREE Shipping Australia-wide
+
+Whether you're restocking the van or planning your next big install, there's never been a better time to stock up on Clipsal favourites.
+
+🎯 Quality gear. Fast delivery. Bonus tools just for you.
+
+🔧 Limit 1 screwdriver per order. While stocks last.
+
+👉 Don’t miss out — order now!</td>
+<td><code>Shop Now</code></td>
+<td><a href="https://promotions.mjselectricalsupplies.com.au/clipsal-may-bundle-promotion" target="_blank" title="https://promotions.mjselectricalsupplies.com.au/clipsal-may-bundle-promotion">Link</a></td>
+<td><code>Active</code></td>
+<td>2025-05-01</td>
+<td>5 days</td>
+<td><a href="https://www.facebook.com/ads/library/?id=1042602867826149" target="_blank">View</a></td>
+</tr>
+<tr>
+<td><img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.35426-6/490495422_536093172553006_1034739464654479399_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=4AooCs06wG8Q7kNvwEWe1xS&_nc_oc=AdlAES42-1CJvLIitTBPKCIvyCpqFnORg7StyBdbGT3avAf6CJ4UNUa9KwFgZs0iCm0&_nc_zt=14&_nc_ht=scontent.fros2-1.fna&_nc_gid=VQ8VUohNC79-4g26XrqkHA&oh=00_AfKq-L_sQlfK_fZderrQZYGjpHcOm8rLxfp0OgSV4gABnA&oe=681F47EF" alt="Ad Preview"></td>
+<td>IMO Plug-In Relay | 8 Pin 2P Changeover | 10A 24V AC Coil (RSE2PN24AC)</td>
+<td>🔧 Built to Perform. Trusted to Last.
+
+For over 50 years, IMO has been setting the standard in industrial automation and control components—trusted by professionals across the globe for their quality, reliability, and innovation.
+From relays and variable speed drives to advanced automation solutions, IMO continues to lead with cutting-edge technology and uncompromising standards.
+
+✅ Global brand with a legacy of excellence
+✅ Manufactured with precision & tested for durability
+✅ Trusted by professionals in 30+ countries
+
+🔍 Shop IMO now and discover why engineers and electricians worldwide trust IMO to get the job done right—every time.
+
+📦 Fast shipping. Competitive pricing. Expert support.</td>
+<td><code>Shop Now</code></td>
+<td><a href="https://www.mjselectricalsupplies.com.au/relay-10a-2-pole-changeover-8pin-24vac-coil-rse2p" target="_blank" title="https://www.mjselectricalsupplies.com.au/relay-10a-2-pole-changeover-8pin-24vac-coil-rse2p">Link</a></td>
+<td><code>Active</code></td>
+<td>2025-04-10</td>
+<td>26 days</td>
+<td><a href="https://www.facebook.com/ads/library/?id=1336668967618417" target="_blank">View</a></td>
+</tr>
+<tr>
+<td><img src="https://scontent.fros2-1.fna.fbcdn.net/v/t39.35426-6/489969555_1270805084608214_3032845642919254121_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=c53f8f&_nc_ohc=qDUcDeJ4X08Q7kNvwEY-0V6&_nc_oc=Adky2N0g4fqCtTwQQ787pbOByJqS9EtijTn3SX6FF2M4Wrlxngbyu6q-hHjMphlHpdU&_nc_zt=14&_nc_ht=scontent.fros2-1.fna&_nc_gid=VQ8VUohNC79-4g26XrqkHA&oh=00_AfJp803LxNZurxCC2yV7TIJuAP4UZQ0eQ9CQvSjTYUjPfQ&oe=681F65A8" alt="Ad Preview"></td>
+<td>Klein Tools 6 Piece Insulated Screwdriver Set</td>
+<td>🛠 Built for Pros. Trusted Since 1857.
+
+Klein Tools – 160+ years of craftsmanship, made to last.
+Since 1857, Klein Tools has been the name tradespeople trust. Proudly American made, Klein delivers high-performance hand tools that work as hard as you do — day in, day out.
+
+✅ Engineered for electricians, tradies & pros
+✅ Unmatched durability & precision
+✅ Made in the USA, trusted worldwide
+
+Whether you're rewiring a panel or on-site troubleshooting, Klein Tools has your back with tools that won’t quit when the job gets tough.
+
+🔧 Shop now and gear up like a pro.</td>
+<td><code>Shop Now</code></td>
+<td><a href="https://www.mjselectricalsupplies.com.au/klein-tools-6-piece-insulated-screwdriver-set" target="_blank" title="https://www.mjselectricalsupplies.com.au/klein-tools-6-piece-insulated-screwdriver-set">Link</a></td>
+<td><code>Active</code></td>
+<td>2025-04-10</td>
+<td>26 days</td>
+<td><a href="https://www.facebook.com/ads/library/?id=9531095643645410" target="_blank">View</a></td>
+</tr>
+
+            </tbody>
+        </table>
+<p class="footer">End of Report</p>
+    </div> <!-- Close container -->
+</body>
+</html>
